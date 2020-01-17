@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">CustomPopwindow</string>
+
+    <declare-styleable name="ReplyBgView">
+        <attr name="Replygravity">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+            <enum name="top" value="2" />
+            <enum name="bottom" value="3" />
+        </attr>
+        <attr name="replybv_color" format="color" />
+        <attr name="radius" format="dimension" />
+        <attr name="offset" format="dimension" />
+        <attr name="trgWidth" format="dimension" />
+        <attr name="trgHeight" format="dimension" />
+    </declare-styleable>
+
 </resources>
